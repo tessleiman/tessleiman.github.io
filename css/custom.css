@@ -87,6 +87,9 @@ a:active{
 	margin-bottom: 0px;
 }
 
+#Documents a{
+	color: white;
+}
 #games{
 	position: relative;
 	padding-left: 30px;
@@ -142,9 +145,6 @@ a:active{
 }
 .w80{
 	width: 80%;
-}
-#Documents a{
-	color: white;
 }
 .TopUI{
 	font-size: 20px;
