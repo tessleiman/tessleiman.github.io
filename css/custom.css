@@ -47,6 +47,12 @@ a:active{
 	text-decoration: underline;
 }
 
+p{
+	background: white;
+	border-radius: 10px;
+	padding-left: 10px;
+}
+
 .icons {
 	position: relative;
 }
@@ -64,7 +70,6 @@ a:active{
 	height: 25%;
 	display: flex;	
 	margin-left: 30px;
-	/*align-items: flex-end;*/
 	justify-content: flex-end;
 	flex-direction: row;
 	margin-bottom: none;
@@ -108,11 +113,13 @@ a:active{
 }
 
 #contact{
-	padding-left: 30px;
+	padding-right: 30px;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: wrap;
 	width: 100%;
+	align-content: flex-end;
+	background: lightpink;
 }
 
 #contact img {
@@ -138,6 +145,7 @@ a:active{
 	width: 80%;
 }
 #title{
+	margin-top: 20px;
 	border-radius: 20px;
 	font-weight: bold;
 	background: white;
