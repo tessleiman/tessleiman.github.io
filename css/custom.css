@@ -5,6 +5,8 @@
 body{
 	background: lightpink;
 	font-family: futura;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 header{
 	width: 17%;
@@ -48,9 +50,9 @@ a:active{
 }
 
 p{
-	background: white;
-	border-radius: 10px;
-	padding-left: 10px;
+	/*background: white;
+	border-radius: 5px;*/
+	font-weight: bold;
 }
 
 .icons {
@@ -150,6 +152,14 @@ p{
 	font-weight: bold;
 	background: white;
 	text-align: center;
+}
+#divider{
+	background: #73ace1;
+	margin-top: 1%;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 1%;
+	border-radius: 50%;
 }
 .w80{
 	width: 80%;
